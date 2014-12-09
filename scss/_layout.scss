@@ -1,0 +1,186 @@
+/* 
+Layout Rules
+    CSS, by its very nature, is used to lay elements out on the page. However, there is a distinction between layouts dictating the major and minor components of a page. The minor components—such as a callout, or login form, or a navigation item—sit within the scope of major components such as a header or footer. I refer to the minor components as Modules and will dive into those in the next section. The major components are referred to as Layout styles.
+    Layout styles can also be divided into major and minor styles based on reuse. Major layout styles such as header and footer are traditionally styled using ID selectors but take the time to think about the elements that are common across all components of the page and use class selectors where appropriate.
+*/
+
+//.sidebar {
+//    background-color: pink;
+//    position: absolute;
+//    top: 0;
+//    riht: 0;
+//    width: 20%;
+//    @media screen and (max-width: $tablet) {
+//        position: static;
+//        width: 100%;
+//    }
+//}
+
+//.page-wrapper {  
+//    bottom: 0;
+//    display: none;
+//    left: 0;
+//    position: fixed;
+//    right: 0;
+//    top: 0;
+//    z-index: 102;
+//    background-image: url(../glasses.png);
+//}
+
+h1 {
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+h2 {
+    margin-left: 15%;
+}
+
+.summary {
+    background-image: url(../glasses.png);
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+//    background-repeat: no-repeat;
+}
+
+//body {
+//    border: 2px solid rgba(190, 80, 80, 0.75);
+//}
+
+//.benefits {
+////    float: left;
+////    max-width: 30%;
+//    padding-right: 50px;
+//}
+
+.summary {
+    //float: left;
+    max-height: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    max-width: 100%;
+}
+
+.design-archives {
+    float: right;
+    max-width: 50%;
+    background-color: rgb(203, 203, 203);
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(190, 80, 80, 0.75);
+    border-radius: 15px;
+    margin-right: 17%;
+    margin-top: 5%;
+}
+
+.zen-resources {
+    float: right;
+    max-width: 50%;
+    background-color: rgb(203, 203, 203);
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(190, 80, 80, 0.75);
+    border-radius: 15px;
+    margin-right: 17%;
+//    margin-top: 5%;
+    margin-bottom: 13%;
+    margin-left: 53%;
+}
+
+.design-selection {
+    float: left;
+    max-width: 50%;
+    background-color: rgb(203, 203, 203);
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(190, 80, 80, 0.75);
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-top: 10%;
+//    margin-bottom: 15%
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.head {
+    top: -400px;
+}
+
+html {
+    background-image: url(../leaves.jpg);
+}
+
+a {
+    color: white;
+}
+
+
+.benefits {
+    float: right;
+    max-width: 25%;
+    background-color: rgb(203, 203, 203);
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(190, 80, 80, 0.75);
+    border-radius: 15px;
+    margin-right: 10%;
+    margin-top: 40%;
+}
+
+.explanation {
+    float: right;
+    max-width: 25%;
+    background-color: rgb(203, 203, 203);
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(190, 80, 80, 0.75);
+    border-radius: 15px;
+    margin-right: 10%;
+    margin-top: 45%;
+}
+
+.requirements {
+    float: left;
+    max-width: 25%;
+    background-color: rgb(203, 203, 203);
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(190, 80, 80, 0.75);
+    border-radius: 15px;
+    margin-left: 13%;
+    margin-top: 28%;
+}
+    
+.participation {
+    float: left;
+    max-width: 25%;
+    background-color: rgb(203, 203, 203);
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(190, 80, 80, 0.75);
+    border-radius: 15px;
+    margin-left: 13%;
+    margin-top: 30%;
+}
+
+.preamble {
+    float: left;
+    max-width: 25%;
+    background-color: rgb(203, 203, 203);
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(190, 80, 80, 0.75);
+    border-radius: 15px;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+//body { 
+//    columns: 2;
+//    column-gap: 1em;
+//}

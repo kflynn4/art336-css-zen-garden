@@ -706,6 +706,13 @@ h1 {
   margin-top: 15%;
   margin-left: 15%;
 }
+@media only screen and (max-width: 550px) {
+  h1 {
+    max-width: 100%;
+    margin-top: 85%;
+    margin-left: 18%;
+  }
+}
 
 h2 {
   margin-left: 15%;
@@ -716,6 +723,11 @@ h2 {
   position: relative;
   min-width: 100%;
   min-height: 100%;
+}
+@media only screen and (max-width: 550px) {
+  .summary {
+    background-image: url(../monocle1.png);
+  }
 }
 
 .summary {
@@ -737,6 +749,15 @@ h2 {
   margin-right: 17%;
   margin-top: 5%;
 }
+@media only screen and (max-width: 550px) {
+  .design-archives {
+    max-width: 100%;
+    float: left;
+    margin-left: 27%;
+    margin-top: 5%;
+    margin-right: 0;
+  }
+}
 
 .zen-resources {
   float: right;
@@ -750,6 +771,16 @@ h2 {
   margin-bottom: 13%;
   margin-left: 53%;
 }
+@media only screen and (max-width: 550px) {
+  .zen-resources {
+    max-width: 100%;
+    float: left;
+    margin-right: 0;
+    margin-bottom: 48%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+}
 
 .design-selection {
   float: left;
@@ -761,6 +792,14 @@ h2 {
   border-radius: 15px;
   margin-left: 15%;
   margin-top: 10%;
+}
+@media only screen and (max-width: 550px) {
+  .design-selection {
+    max-width: 80%;
+    float: left;
+    margin-left: 11%;
+    margin-top: 5%;
+  }
 }
 
 ul {
@@ -780,6 +819,11 @@ a {
   color: white;
 }
 
+a:hover {
+  color: #999999;
+  transition: color 350ms linear;
+}
+
 .benefits {
   float: right;
   max-width: 25%;
@@ -790,6 +834,15 @@ a {
   border-radius: 15px;
   margin-right: 10%;
   margin-top: 40%;
+}
+@media only screen and (max-width: 550px) {
+  .benefits {
+    max-width: 80%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 11%;
+    margin-right: 0;
+  }
 }
 
 .explanation {
@@ -803,6 +856,15 @@ a {
   margin-right: 10%;
   margin-top: 45%;
 }
+@media only screen and (max-width: 550px) {
+  .explanation {
+    max-width: 80%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 11%;
+    margin-right: 0;
+  }
+}
 
 .requirements {
   float: left;
@@ -814,6 +876,14 @@ a {
   border-radius: 15px;
   margin-left: 13%;
   margin-top: 28%;
+}
+@media only screen and (max-width: 550px) {
+  .requirements {
+    max-width: 80%;
+    float: left;
+    margin-left: 11%;
+    margin-top: 5%;
+  }
 }
 
 .participation {
@@ -827,6 +897,14 @@ a {
   margin-left: 13%;
   margin-top: 30%;
 }
+@media only screen and (max-width: 550px) {
+  .participation {
+    max-width: 80%;
+    float: left;
+    margin-left: 11%;
+    margin-top: 5%;
+  }
+}
 
 .preamble {
   float: left;
@@ -838,6 +916,14 @@ a {
   border-radius: 15px;
   margin-left: 13%;
   margin-top: 5%;
+}
+@media only screen and (max-width: 550px) {
+  .preamble {
+    max-width: 80%;
+    float: left;
+    margin-left: 11%;
+    margin-top: 50%;
+  }
 }
 
 /* 

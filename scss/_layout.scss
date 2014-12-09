@@ -30,6 +30,11 @@ Layout Rules
 h1 {
     margin-top: 15%;
     margin-left: 15%;
+    @media only screen and (max-width: 550px) {
+        max-width: 100%;
+        margin-top: 85%;
+        margin-left: 18%
+    }
 }
 
 h2 {
@@ -38,21 +43,14 @@ h2 {
 
 .summary {
     background-image: url(../glasses.png);
+    @media only screen and (max-width: 550px) {
+        background-image: url(../monocle1.png);
+    }
     position: relative;
     min-width: 100%;
     min-height: 100%;
-//    background-repeat: no-repeat;
 }
 
-//body {
-//    border: 2px solid rgba(190, 80, 80, 0.75);
-//}
-
-//.benefits {
-////    float: left;
-////    max-width: 30%;
-//    padding-right: 50px;
-//}
 
 .summary {
     //float: left;
@@ -73,6 +71,13 @@ h2 {
     border-radius: 15px;
     margin-right: 17%;
     margin-top: 5%;
+    @media only screen and (max-width: 550px) {
+        max-width: 100%;
+        float: left;
+        margin-left: 27%;
+        margin-top: 5%;
+        margin-right: 0;
+    }
 }
 
 .zen-resources {
@@ -84,9 +89,16 @@ h2 {
     border: 2px solid rgba(190, 80, 80, 0.75);
     border-radius: 15px;
     margin-right: 17%;
-//    margin-top: 5%;
     margin-bottom: 13%;
     margin-left: 53%;
+    @media only screen and (max-width: 550px) {
+        max-width: 100%;
+        float: left;
+        margin-right: 0;
+        margin-bottom: 48%;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
 }
 
 .design-selection {
@@ -99,7 +111,12 @@ h2 {
     border-radius: 15px;
     margin-left: 15%;
     margin-top: 10%;
-//    margin-bottom: 15%
+    @media only screen and (max-width: 550px) {
+        max-width: 80%;
+        float:left;
+        margin-left: 11%;
+        margin-top: 5%;
+    }
 }
 
 ul {
@@ -119,6 +136,12 @@ a {
     color: white;
 }
 
+a:hover {
+    color: darken(white, 40%);
+    transition: color 350ms linear;
+}
+
+
 
 .benefits {
     float: right;
@@ -130,6 +153,13 @@ a {
     border-radius: 15px;
     margin-right: 10%;
     margin-top: 40%;
+    @media only screen and (max-width: 550px) {
+        max-width: 80%;
+        float: left;
+        margin-top: 5%;
+        margin-left: 11%;
+        margin-right: 0;
+    }
 }
 
 .explanation {
@@ -142,6 +172,14 @@ a {
     border-radius: 15px;
     margin-right: 10%;
     margin-top: 45%;
+    @media only screen and (max-width: 550px) {
+        max-width: 80%;
+        float: left;
+        margin-top: 5%;
+        margin-left: 11%;
+        margin-right: 0;
+    }
+    
 }
 
 .requirements {
@@ -154,6 +192,12 @@ a {
     border-radius: 15px;
     margin-left: 13%;
     margin-top: 28%;
+    @media only screen and (max-width: 550px) {
+        max-width: 80%;
+        float: left;
+        margin-left: 11%;
+        margin-top: 5%;
+    }
 }
     
 .participation {
@@ -166,6 +210,12 @@ a {
     border-radius: 15px;
     margin-left: 13%;
     margin-top: 30%;
+    @media only screen and (max-width: 550px) {
+        max-width: 80%;
+        float: left;
+        margin-left: 11%;
+        margin-top: 5%;
+    }
 }
 
 .preamble {
@@ -178,6 +228,12 @@ a {
     border-radius: 15px;
     margin-left: 13%;
     margin-top: 5%;
+    @media only screen and (max-width: 550px) {
+        max-width: 80%;
+        float: left;
+        margin-left: 11%;
+        margin-top: 50%;
+    }
 }
 
 //body { 

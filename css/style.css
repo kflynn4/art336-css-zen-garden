@@ -402,6 +402,7 @@ th {
 /* 
 12 Column Mobile First Gird System
 */
+/*
 .supporting,
 .preamble,
 .row, .row-no-gutter {
@@ -417,6 +418,7 @@ th {
   content: "";
   display: table;
 }
+*/
 
 /*
 .preamble h3,
@@ -737,3 +739,21 @@ State Rules
     A state is something that augments and overrides all other styles. For example, an accordion section may be in a collapsed or expanded state. A message may be in a success or error state.
     States are generally applied to the same element as a layout rule or applied to the same element as a base module class. 
 */
+
+
+/*
+@media only screen and (max-width: 550px) {
+    .summary {
+        max-height: 100%;
+        color: white;
+        position: fixed;
+        top: 0;
+        max-width: 95%;
+    }
+    .summary {
+        background-image: url(../glasses.png);
+        position: relative;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}*/
